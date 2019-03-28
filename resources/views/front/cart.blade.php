@@ -75,7 +75,7 @@
                              <?php
                            $subtotal=$data-> price*$data-> qty;  
                          ?>
-                             <td>N{{$subtotal}}</td>
+                             <td>N{{$data-> subtotal}}</td>
                            </tr>
                            <?php
                            $total=$subtotal+$total;  
